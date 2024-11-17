@@ -1,0 +1,72 @@
+
+// Imports
+// font-family: "Nunito Sans", sans-serif;
+@import "https://fonts.googleapis.com/css2?family=Bangers&family=Baskervville+SC&family=Gamja+Flower&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+// font-family: "Marck Script", cursive;
+@import "https://fonts.googleapis.com/css2?family=Bangers&family=Baskervville+SC&family=Gamja+Flower&family=Leckerli+One&family=Marck+Script&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+// font-family: "Unna", serif;
+@import "https://fonts.googleapis.com/css2?family=Bangers&family=Baskervville+SC&family=Gamja+Flower&family=Leckerli+One&family=Marck+Script&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap";
+
+
+// Variables
+  // colors
+    $bg-clr:#f1f1ef;
+    $bg-secondary-clr: #B0C7B8;
+    $highlight-clr: #1f702f ;
+    $highlight-light-clr: #3b954d;
+    $main-clr: #103c19 ;
+    $secondary-clr: #631A3A;
+    $third-clr: #dcdcdc;
+  // text
+    $text-bold: bolder;
+    $text-itallic: itallic; 
+        // header
+    $text-header-font: "Nunito Sans", sans-serif;
+    $text-header-clr: black;
+    $text-header-size: 40px;
+      // paragraph
+      $text-paragraph-font: "Nunito Sans", sans-serif;
+      $text-paragraph-clr: black;
+      $text-paragraph-size: 20px;
+
+
+// Mixin
+@mixin flex($direction: row, $justify: center, $align: center){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+// header
+@mixin text-header(
+  $clr: $text-header-clr, 
+  $size: $text-header-size,
+  $font: $text-header-font, 
+  $bold: $text-bold
+){
+  color: $clr;
+  font-size: $size;
+  font-family: $font;
+  font-weight: $bold;
+}
+
+// paragraph
+@mixin text-paragraph(
+  $clr: $text-paragraph-clr, 
+  $size: $text-paragraph-size,
+  $font:$text-paragraph-font, 
+  $bold: none
+){
+  color: $clr;
+  font-size: $size;
+  font-family: $font;
+  font-weight: $bold;
+}
+
+// general
+@mixin btn (){
+  background-color: $secondary-clr;
+  color: $highlight-clr;
+  border: $highlight-clr 2px solid;
+}

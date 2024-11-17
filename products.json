@@ -1,0 +1,226 @@
+{
+  "product":
+  [
+    {
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "price": 9.00,
+      "author": "JK Rowling",
+      "imageUrl": "https://www.worldofbooks.com/cdn/shop/files/059035342X_b6a898ca-a7a7-4336-8e77-6e5d096a3b2b.jpg?v=1718590503&width=493",
+      "genre": "Fantasy",
+      "category": ["bestselling", "topGenre"],
+      "coverType":  "Paperback",
+      "condition": "Good",
+      "summary": "Harry Potter has never been the star of a Quidditch team, scoring points while riding a broom far above the ground. He knows no spells, has never helped to hatch a dragon, and has never worn a cloak of invisibility. All he knows is a miserable life with the Dursleys, his horrible aunt and uncle, and their abominable son, Dudley - a great big swollen spoiled bully. Harry's room is a tiny closet at the foot of the stairs, and he hasn't had a birthday party in eleven years. But all that is about to change when a mysterious letter arrives by owl messenger: a letter with an invitation to an incredible place that Harry - and anyone who reads about him - will find unforgettable."
+    },
+    {
+      "name": "The Cinnamon Bun Book Store (Dream Harbor, Book 2)",
+      "price": 18.99 ,
+      "author": "Laurie Gilmore",
+      "imageUrl": "https://prodimage.images-bn.com/pimages/9780008641580_p0_v3_s1200x1200.jpg",
+      "genre": "Romance",
+      "category": [],
+      "coverType":  "Hardcover",
+      "condition": "Mint",
+      "summary": "When a secret message turns up hidden in a book in the Cinnamon Bun Bookstore, Hazel can't understand it. As more secret codes appear between the pages, she decides to follow the trail of clues… she just needs someone to help her out. Gorgeous and outgoing fisherman, Noah, is always up for an adventure. And a scavenger hunt sounds like a lot of fun. Even better that the cute bookseller he's been crushing on for months is the one who wants his help! Hazel didn’t go looking for romance, but as the treasure hunt leads her and Noah around Dream Harbor, their undeniable chemistry might be just as hot as the fresh-out-of-the-oven cinnamon buns the bookstore sells…"
+    },
+    {
+      "name": "Cake & Loaf: Satisfy Your Cravings with Over 85 Recipes for Everyday Baking and Sweet Treats",
+      "price": 7.99,
+      "author": "Nickey Miller",
+      "imageUrl": "https://bookoutlet.com/_next/image?url=https%3A%2F%2Fimages.bookoutlet.com%2Fcovers%2Flarge%2Fisbn978073%2F9780735239838-l.jpg&w=640&q=75",
+      "genre": "Cooking, Food and Drink",
+      "category": [],
+      "coverType":  "Paperback",
+      "condition": "Good",
+      "summary": "Cake & Loaf, a cozy from-scratch neighbourhood bakery, started with a dream shared over coffee between college friends and business partners, Nickey Miller and Josie Rudderham. Genuinely passionate about food, sustainability, and community, they wanted to create a bakery with a dynamic atmosphere that fosters creativity and equality.Today, a living-wage employer, Cake & Loaf is beloved for its stand-out baked goods. Full of flavour and homespun comfort, the recipes range from classics like Maple Syrup Butter Tarts and Vanilla Bean Nanaimo Bars, to local favourites like Pumpkin Spice Baked Doughnuts and Lemonlicious Cake. The book features over 85 recipes and variations to create your own sweets and treats at home, including everyday morning baking—muffins, scones, doughnuts, and granolas—cookies, decadent sandwich cookies, bars, layer cakes, tarts, and pies. The charming stories of the bakery’s roots, mouthwatering photographs, and beautiful illustrations throughout the book will transport home cooks to the bakery. These sweet treats and desserts are sure to please everyone!"
+    },
+    {
+      "name": "How to Train a Happy Mind: A Skeptic's Path to Enlightenment",
+      "price": 7.19 ,
+      "author": "Scott Snibbe",
+      "imageUrl": "https://bookoutlet.com/_next/image?url=https%3A%2F%2Fimages.bookoutlet.com%2Fcovers%2Flarge%2Fisbn978178%2F9781786787460-l.jpg&w=640&q=75",
+      "genre": "Self-Help",
+      "category": ["bestselling", "topGenre"],
+      "coverType":  "Paperback",
+      "condition": "Used",
+      "summary": "Eager to share the life-enhancing benefits he found in Buddhism, skeptic Scott Snibbe presents this 8-step programme that allows anyone to build positive mental habits. Inspired by the ancient Buddhist path to enlightenment yet firmly grounded in modern science, How to Train a Happy Mind is the first mainstream book to show how you can achieve happiness using analytical meditation. Working in much the same way as cognitive behavioural therapy, analytical meditation goes beyond the calm-inducing practice of mindfulness to actively train the brain through easy-to-follow narrative visualizations. Breaking the path down into concise steps and written in a relatable tone with plenty of references to popular culture, this is the ideal book if you recognize your mind as both the source of your problems and the source of your solutions."
+    },
+    {
+      "name": "The Bridge Kingdom",
+      "price": 15.83 ,
+      "author": "Danielle L. Jensen",
+      "imageUrl": "https://covers4.booksamillion.com/covers/bam/0/59/397/518/0593975189.jpg?_gl=1*k1qt96*_gcl_aw*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_dc*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_au*MTU0OTg4NjAxMy4xNzMxMjgzODc2*_ga*MTY0MTAxMDc1NS4xNzMxMjgzODc2*_ga_49VMH3SVSG*MTczMTM4MDUzOC4zLjEuMTczMTM4MDU1OS4zOS4wLjA.",
+      "genre": "Romance",
+      "category": [],
+      "coverType":  "Hardcover",
+      "condition": "Good",
+      "summary": "A warrior princess trained in isolation, Lara is driven by two certainties. The first is that King Aren of the Bridge Kingdom is her enemy. And the second is that she'll be the one to bring him to his knees. The only route through a storm-ravaged world, the Bridge Kingdom enriches itself and deprives its rivals, including Lara's homeland. So when she's sent as a bride under the guise of peace, Lara is prepared to do whatever it takes to fracture its impenetrable defenses. And the defenses of its king. Yet as she infiltrates her new home and gains a deeper understanding of the war to possess the bridge, Lara begins to question whether she's the hero or the villain. And as her feelings for Aren transform from frosty hostility to fierce passion, Lara must choose which kingdom she'll save . . . and which kingdom she'll destroy."
+    },
+    {
+      "name": "To Die for",
+      "price": 20.58 ,
+      "author": "David Baldacci",
+      "imageUrl": "https://covers2.booksamillion.com/covers/bam/1/53/875/790/1538757907.jpg?_gl=1*1lxlneb*_gcl_aw*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_dc*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_au*MTU0OTg4NjAxMy4xNzMxMjgzODc2*_ga*MTY0MTAxMDc1NS4xNzMxMjgzODc2*_ga_49VMH3SVSG*MTczMTM4MDUzOC4zLjEuMTczMTM4MDc5Mi41OC4wLjA.",
+      "genre": "Thriller",
+      "category": [],
+      "coverType":  "Paperback",
+      "condition": "Used",
+      "summary": "Travis Devine has become a pro at adapting to any situation to accomplish the mission set in front of him. Whether it's a high-powered corporate setting or small-town community, Devine will become the man for the job. His time as an Army Ranger and on the financial battlefields of Wall Street gave him the skills he needed, and he's put them to good use. But this time it's not his skills that send him to Seattle to aid the FBI in escorting orphaned, twelve-year-old Betsy Odom to a meeting with her uncle, who's under investigation for RICO charges. Instead, he's hoping to lie low and keep off the radar of an enemy that he evaded on a train in Switzerland and who has been after him ever since--the girl on the train. But as Devine gets to know Betsy, questions begin to arise around the death of her parents. Betsy is adamant that they had never used drugs, but the police in the small rural town where they died insist the Odoms died of an overdose. Devine starts digging for answers, and what he finds points to a conspiracy bigger than he could've ever imagined. The question is, how do Betsy, her uncle, and various government agencies all fit into it. It might finally be time for Devine and the girl on the train to come face-to-face, and when that happens, Devine is going to find himself unsure of who are his allies and who are his enemies. And in some cases, they might well be both."
+    },
+    {
+      "name": "Gravity Falls : Journal 3",
+      "price": 19.99 ,
+      "author": "Alex Hirsch",
+      "imageUrl": "https://covers4.booksamillion.com/covers/bam/1/48/474/669/1484746694.jpg?_gl=1*mych1p*_gcl_aw*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_dc*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_au*MTU0OTg4NjAxMy4xNzMxMjgzODc2*_ga*MTY0MTAxMDc1NS4xNzMxMjgzODc2*_ga_49VMH3SVSG*MTczMTM4MDUzOC4zLjEuMTczMTM4MDkxMi42MC4wLjA.",
+      "genre": "Action & Adventure",
+      "category": [],
+      "coverType":  "Hardcover",
+      "condition": "Mint",
+      "summary": "Journal 3 brims with every page ever seen on the show plus all-new pages with monsters and secrets, notes from Dipper and Mabel, and the Author's full story. Fans of Gravity Falls will simply love this 288-page full-color jacketed hardcover version of Journal 3 Plus the book jacket doubles as an exclusive poster."
+    },
+    {
+      "name": "We Who Wrestle With God",
+      "price": 31.36 ,
+      "author": "Jordan Peterson",
+      "imageUrl": "https://covers3.booksamillion.com/covers/bam/0/59/354/253/0593542533.jpg?_gl=1*subsmm*_gcl_aw*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_dc*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_au*MTU0OTg4NjAxMy4xNzMxMjgzODc2*_ga*MTY0MTAxMDc1NS4xNzMxMjgzODc2*_ga_49VMH3SVSG*MTczMTM4MDUzOC4zLjEuMTczMTM4MTA3My4xMi4wLjA.",
+      "genre": "Self-Help",
+      "category": [],
+      "coverType":  "Hardcover",
+      "condition": "Mint",
+      "summary": "In We Who Wrestle with God, Dr. Peterson guides us through the ancient, foundational stories of the Western world. In riveting detail, he analyzes the Biblical accounts of rebellion, sacrifice, suffering, and triumph that stabilize, inspire, and unite us culturally and psychologically. Adam and Eve and the eternal fall of mankind; the resentful and ultimately murderous war of Cain and Abel; the cataclysmic flood of Noah; the spectacular collapse of the Tower of Babel; Abraham’s terrible adventure; and the epic of Moses and the Israelites. What could such stories possibly mean? What force wrote and assembled them over the long centuries? How did they bring our spirits and the world together, and point us in the same direction?"
+    },
+    {
+      "name": "Onyx Storm Deluxe Edition (The Empyrean Book 3)",
+      "price": 23.09 ,
+      "author": "Rebecca Yarros",
+      "imageUrl": "https://covers2.booksamillion.com/covers/bam/1/64/937/418/1649374186.jpg?_gl=1*d2waqp*_gcl_aw*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_dc*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_au*MTU0OTg4NjAxMy4xNzMxMjgzODc2*_ga*MTY0MTAxMDc1NS4xNzMxMjgzODc2*_ga_49VMH3SVSG*MTczMTM4MDUzOC4zLjEuMTczMTM4MTIyMy40My4wLjA.",
+      "genre": "Fantasy",
+      "category": [],
+      "coverType":  "Paperback",
+      "condition": "Used",
+      "summary": "Rebecca Yarros is the #1 New York Times, USA Today, and Wall Street Journal bestselling author of over fifteen novels including Fourth Wing and In the Likely Event, with multiple starred Publishers Weekly reviews and a Kirkus Best Book of the Year. She loves military heroes and has been blissfully married to hers for over twenty years. She’s the mother of six children, and is currently surviving the teenage years with two of her four hockey-playing sons. When she’s not writing, you can find her at the hockey rink or sneaking in some guitar time while guzzling coffee. She and her family live in Colorado with their stubborn English bulldogs, two feisty chinchillas, and a Maine Coon cat named Artemis, who rules them all."
+    },
+    {
+      "name": "Haunting Adeline",
+      "price": 20.00 ,
+      "author": "H. D. Carlton",
+      "imageUrl": "https://covers1.booksamillion.com/covers/bam/1/63/893/246/1638932468.jpg?_gl=1*1y1482z*_gcl_aw*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_dc*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_au*MTU0OTg4NjAxMy4xNzMxMjgzODc2*_ga*MTY0MTAxMDc1NS4xNzMxMjgzODc2*_ga_49VMH3SVSG*MTczMTM4MDUzOC4zLjEuMTczMTM4MTMyMy42MC4wLjA.",
+      "genre": "Romance",
+      "category": ["bestselling", "topGenre"],
+      "coverType":  "Paperback",
+      "condition": "Mint",
+      "summary": "The Manipulator I can manipulate the emotions of anyone who lets me. I will make you hurt, make you cry, make you laugh and sigh. But my words don't affect him. Especially not when I plead for him to leave. He's always there, watching and waiting. And I can never look away. Not when I want him to come closer. The Shadow I didn't mean to fall in love. But now that I have, I can't stay away. I'm mesmerized by her smile, by her eyes, and the way she moves. The way she undresses... I'll keep watching and waiting. Until I can make her mine. And once she is, I'll never let her go. Not even when she begs me to. "
+    },
+    {
+      "name": "The Housemaid Is Watching",
+      "price": 17.99,
+      "author": "Freida McFadden",
+      "imageUrl": "https://covers1.booksamillion.com/covers/bam/1/46/422/113/1464221138.jpg?_gl=1*1huok0b*_gcl_aw*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_dc*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_au*MTU0OTg4NjAxMy4xNzMxMjgzODc2*_ga*MTY0MTAxMDc1NS4xNzMxMjgzODc2*_ga_49VMH3SVSG*MTczMTM4MDUzOC4zLjEuMTczMTM4MTQ4NS40NC4wLjA.",
+      "genre": "Thriller",
+      "category": ["topGenre"],
+      "coverType":  "Paperback",
+      "condition": "Good",
+      "summary": "I used to clean other people's houses--now, I can't believe this home is actually mine. The charming kitchen, the quiet cul-de-sac, the huge yard where my kids can play. My husband and I saved for years to give our children the life they deserve. Even though I'm wary of our new neighbor Mrs. Lowell, when she invites us over for dinner it's our chance to make friends. Her maid opens the door wearing a white apron, her hair in a tight bun. I know exactly what it's like to be in her shoes. But her cold stare gives me chills... The Lowells' maid isn't the only strange thing on our street. I'm sure I see a shadowy figure watching us. My husband leaves the house late at night. And when I meet a woman who lives across the way, her words chill me to the bone: Be careful of your neighbors. Did I make a terrible mistake moving my family here? I thought I'd left my darkest secrets behind. But could this quiet suburban street be the most dangerous place of all?"
+    },
+    {
+      "name": "Great Big Beautiful Life Autographed",
+      "price": 29.00 ,
+      "author": "Emily Henry",
+      "imageUrl": "https://covers4.booksamillion.com/covers/bam/0/59/395/587/0593955870.jpg?_gl=1*qg6g0t*_gcl_aw*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_dc*R0NMLjE3MzEzODA1NDUuQ2owS0NRaUE4OGE1QmhEUEFSSXNBRmo1OTVoS2FoWlNPMFN0aWhvZjZTX1M3ZDRzU2hLSWg4X0pWYnpiak85ZFpESEhQaG1UZGhnTEFrd2FBaEFRRUFMd193Y0I.*_gcl_au*MTU0OTg4NjAxMy4xNzMxMjgzODc2*_ga*MTY0MTAxMDc1NS4xNzMxMjgzODc2*_ga_49VMH3SVSG*MTczMTM4MDUzOC4zLjEuMTczMTM4MTcwOS4zOS4wLjA.",
+      "genre": "Romance",
+      "category": ["bestselling"],
+      "coverType":  "Paperback",
+      "condition": "Mint",
+      "summary": "Alice Scott is an eternal optimist still dreaming of her big writing break. Hayden Anderson is a Pulitzer-prize winning human thundercloud. And they’re both on balmy Little Crescent Island for the same reason: To write the biography of a woman no one has seen in years--or at least to meet with the octogenarian who claims to be the Margaret Ives. Tragic heiress, former tabloid princess, and daughter of one of the most storied (and scandalous) families of the 20th Century."
+    },
+    {
+      "name": "The Women of Troy",
+      "price": 18.00 ,
+      "author": "Pat Barker",
+      "imageUrl": "https://covers2.booksamillion.com/covers/bam/0/59/331/132/0593311329_b.jpg",
+      "genre": "Historical",
+      "category": ["booktok"],
+      "coverType":  "Paperback",
+      "condition": "Mint",
+      "summary": "A daring and timely feminist retelling of The Iliad from the perspective of the women of Troy who endured it--an extraordinary follow up to The Silence of the Girls from the Booker Prize-winning author of The Regeneration Trilogy and 'one of contemporary literature's most thoughtful and compelling writers' (The Washington Post). Troy has fallen and the victorious Greeks are eager to return home with the spoils of an endless war--including the women of Troy themselves. They await a fair wind for the Aegean. It does not come, because the gods are offended. The body of King Priam lies unburied and desecrated, and so the victors remain in suspension, camped in the shadows of the city they destroyed as the coalition that held them together begins to unravel. Old feuds resurface and new suspicions and rivalries begin to fester. Largely unnoticed by her captors, the one time Trojan queen Briseis, formerly Achilles's slave, now belonging to his companion Alcimus, quietly takes in these developments. She forges alliances when she can, with Priam's aged wife the defiant Hecuba and with the disgraced soothsayer Calchas, all the while shrewdly seeking her path to revenge."
+    },
+    {
+      "name": "Mythology : Timeless Tales of Gods and Heroes",
+      "price": 10.99 ,
+      "author": "Edith Hamilton",
+      "imageUrl": "https://covers3.booksamillion.com/covers/bam/0/44/657/475/0446574759_b.jpg",
+      "genre": "Historical",
+      "category": ["booktok"],
+      "coverType":  "Paperback",
+      "condition": "Mint",
+      "summary": "Edith Hamilton's mythology succeeds like no other book in bringing to life for the modern reader the Greek, Roman and Norse myths that are the keystone of Western culture--the stories of gods and heroes that have inspired human creativity from antiquity to the present. We follow the drama of the Trojan War and the wanderings of Odysseus. We hear the tales of Jason and the Golden Fleece, Cupid and Psyche, and mighty King Midas. We discover the origins of the names of the constellations. And we recognize reference points for countless works for art, literature and culture inquiry-from Freud's Oedipus complex to Wagner's Ring Cycle of operas to Eugene O'Neill's Mourning Becomes Electra Both a reference text for scholars of all ages and a book to simply enjoy, Mythology is a classic not to be missed."
+    },
+    {
+      "name": "Iron Flame",
+      "price": 29.99 ,
+      "author": "Rebecca Yarros",
+      "imageUrl": "https://covers1.booksamillion.com/covers/bam/1/64/937/417/1649374178_b.jpg",
+      "genre": "Fantasy",
+      "category": ["booktok"],
+      "coverType":  "Hardcover",
+      "condition": "Mint",
+      "summary": "“The first year is when some of us lose our lives. The second year is when the rest of us lose our humanity.” —Xaden Riorson Everyone expected Violet Sorrengail to die during her first year at Basgiath War College—Violet included. But Threshing was only the first impossible test meant to weed out the weak-willed, the unworthy, and the unlucky. Now the real training begins, and Violet’s already wondering how she’ll get through. It’s not just that it’s grueling and maliciously brutal, or even that it’s designed to stretch the riders’ capacity for pain beyond endurance. It’s the new vice commandant, who’s made it his personal mission to teach Violet exactly how powerless she is–unless she betrays the man she loves. Although Violet’s body might be weaker and frailer than everyone else’s, she still has her wits—and a will of iron. And leadership is forgetting the most important lesson Basgiath has taught her: Dragon riders make their own rules. But a determination to survive won’t be enough this year. Because Violet knows the real secret hidden for centuries at Basgiath War College—and nothing, not even dragon fire, may be enough to save them in the end."
+    },
+    {
+      "name": "When the Moon Hatched",
+      "price": 22.00 ,
+      "author": "Sarah A. Parker",
+      "imageUrl": "https://covers2.booksamillion.com/covers/bam/0/06/341/580/0063415801_b.jpg",
+      "genre": "Romance",
+      "category": ["booktok"],
+      "coverType":  "Paperback",
+      "condition": "Mint",
+      "summary": "The Creators did not expect their beloved dragons to sail skyward upon their end. To curl into balls just beyond gravity's grip, littering the sky with tombstones. With moons. They certainly did not expect them to FALL. As an assassin for the rebellion group Fíur du Ath, Raeve's job is to complete orders and never get caught. When a rival bounty hunter turns her world upside down, blood spills, hearts break, and Raeve finds herself imprisoned by the Guild of Nobles--a group of powerful fae who turn her into a political statement. Crushed by the loss of his great love, Kaan Vaegor took the head of a king and donned his melted crown. Now on a tireless quest to quell the never-ebbing ache in his chest, he is lured by a clue into the capitol's high-security prison where he stumbles upon the imprisoned Raeve ... Echoes of the past race between them. There's more to their story than meets the eye, but some truths are too poisonous to swallow."
+    },
+    {
+      "name": "Never Lie",
+      "price": 17.99 ,
+      "author": "Freida McFadden",
+      "imageUrl": "https://covers3.booksamillion.com/covers/bam/1/72/829/616/1728296161_b.jpg",
+      "genre": "Thriller",
+      "category": ["booktok"],
+      "coverType":  "Paperback",
+      "condition": "Mint",
+      "summary": "Newlyweds Tricia and Ethan are searching for the house of their dreams. They think they've found it when they visit the remote manor that once belonged to Dr. Adrienne Hale, a renowned psychiatrist who vanished without a trace years ago. But when a violent winter storm traps them at the estate, the house begins to lose its appeal. Stuck inside and growing restless, Tricia stumbles on a collection of audio transcripts from Dr. Hale's sessions with patients. As Tricia listens to the cassette tapes, she learns about the terrifying chain of events leading up to the doctor's mysterious disappearance. With each tape, another shocking piece of the puzzle falls into place, and a web of lies slowly unravels. But by the time Tricia reaches the final cassette, the one that reveals the entire horrifying story, it will be too late..."
+    },
+    {
+      "name": "The Song of Achilles",
+      "price": 17.99 ,
+      "author": "Madeline Miller",
+      "imageUrl": "https://covers1.booksamillion.com/covers/bam/0/06/206/062/0062060627_b.jpg",
+      "genre": "Historical",
+      "category": ["booktok"],
+      "coverType":  "Paperback",
+      "condition": "Mint",
+      "summary": "A tale of gods, kings, immortal fame, and the human heart, The Song of Achilles is a dazzling literary feat that brilliantly reimagines Homer's enduring masterwork, The Iliad. An action-packed adventure, an epic love story, a marvelously conceived and executed page-turner, Miller's monumental debut novel has already earned resounding acclaim from some of contemporary fiction's brightest lights--and fans of Mary Renault, Bernard Cornwell, Steven Pressfield, and Colleen McCullough's Masters of Rome series will delight in this unforgettable journey back to ancient Greece in the Age of Heroes."
+    },
+    {
+      "name": "Frankenstein",
+      "price": 24.95 ,
+      "author": "Mary Shelley",
+      "imageUrl": "https://covers1.booksamillion.com/covers/bam/0/59/367/295/059367295X_b.jpg",
+      "genre": "Sci-Fi",
+      "category": ["booktok"],
+      "coverType":  "Hardcover",
+      "condition": "Mint",
+      "summary": "Scientist Victor Frankenstein learns how to create life, but his discovery goes quickly awry when he creates a monster larger and stronger than an ordinary man. As the monster uses its power to destroy everything Victor loves, the young scientist is forced to embark on a treacherous journey to end the monster's existence. It's an epic, enthralling tale of horror from a master of suspense."
+    },
+    {
+      "name": "Games Untold",
+      "price": 15.67 ,
+      "author": "Jennifer Lyne Barnes",
+      "imageUrl": "https://covers4.booksamillion.com/covers/bam/0/31/657/371/031657371X_b.jpg",
+      "genre": "Mystery",
+      "category": ["booktok"],
+      "coverType":  "Hardcover",
+      "condition": "Mint",
+      "summary": "There is nothing frivolous about the way a Hawthorne man loves. An amnesiac playboy and the woman with every reason to hate him. A daredevil, his favorite heiress, and three nights in Prague. An unlikely pairing between a cowboy and a goth. Four brothers with an inescapable bond, strengthened by the family they chose, in a house of wonders that promises to always deliver one more secret. Discover their stories of love and loss, power, puzzles, and life-and-death secrets in this mind-blowingly romantic collection that proves that when you love the way Hawthornes love, there is no going back."
+
+    }
+  ]
+}

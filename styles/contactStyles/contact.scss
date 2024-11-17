@@ -1,0 +1,124 @@
+@import "../variablesNMixin";
+@import "../global.scss";
+
+.contactAll{
+  @include flex(row, center, center);
+  height: 100vh;
+  width: 100%;
+
+  .img {
+    width: 50%;
+    @include flex;
+
+    img {
+      width: 50%;
+      height: 60%;
+      object-fit: contain;
+      box-shadow: -20px -16px rgb($secondary-clr, .90);
+    }
+  }
+
+  .contact {
+    height: 100vh;
+    width: 50%;
+    @include flex(column, end);
+
+    h1 {
+      width: 100%;
+      @include text-header($main-clr, 80px)
+    }
+
+    .contactContainer {
+      height: 60vh;
+      @include flex;
+      width: 100%;
+      border: 2px $secondary-clr solid;
+
+
+      .form {
+        width: 70%;
+        height: 100%;
+
+        form {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          @include text-paragraph;
+
+          input {
+            text-align: start;
+            border: none;
+            border-bottom: 2px $secondary-clr solid;
+            margin: 10px;
+            height: 50px;
+            width: 70%;
+            background-color: rgba(240, 248, 255, 0);
+            outline: none;
+          }
+
+          .btn {
+            height: 30%;
+            width: 100%;
+            @include flex;
+
+            button {
+              border: none;
+              color: rgb(255, 255, 255);
+              background-color: black;
+              border-radius: 50px;
+              width: 50%;
+              padding: 10px 0;
+              cursor: pointer;
+              box-shadow: 0 5px 10px rgba(0, 0, 0, 0.413), 0 15px 40px rgba(114, 119, 138, 0.476);
+            }
+          }
+        }
+      }
+
+      .info {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+
+        h5,
+        p {
+          margin: 10px 0;
+          padding-left: 20px;
+        }
+
+        h5 {
+          @include text-header($main-clr, 20px);
+        }
+
+        p {
+          @include text-paragraph(black, 18px);
+        }
+
+        .email,
+        .location {
+          height: 80px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px){
+  .contactAll{
+    .contact {
+      width: 100%;
+    }
+    .img{
+      display: none;
+      img{
+        display: none;
+      }
+    }
+  }
+}

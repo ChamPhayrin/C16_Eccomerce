@@ -1,0 +1,94 @@
+// COnecting to other Sass files
+@import "../variablesNMixin";
+@import "../global.scss";
+
+
+.path{
+  height: auto;
+  width: 100%;
+  left: 20px;
+  top: 0;
+  ul{
+    @include flex (row, start);
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    li{
+      list-style: none;
+      a{
+        @include text-paragraph(black, 20px);
+        text-decoration: none;
+        padding: 10px;
+        cursor: pointer;
+        
+      }
+      p{
+        padding: 10px;
+        @include text-paragraph(black, 20px);
+      }
+    }
+  }
+}
+
+.title{
+  width: 80%;
+}
+
+.wishGrid{
+  width: 80%;
+  height: auto;
+  .categoryTitle{
+    @include flex;
+    width: 100%;
+    .book{
+      width: 50%;
+    }
+    h3{
+      width: 33%;
+    }
+  }
+  .wishTable{
+    width: 100%;
+    height: 100%;
+    .wishRow{
+      @include flex;
+      max-height: 15vh;
+      border-bottom: rgba(128, 128, 128, 0.172) 2px solid;
+      .book{
+        width: 50%;
+        @include flex(row,start);
+        .titles{
+          padding-left: 10px;
+          h4{
+              @include text-header(black, 20px);
+              margin: 0;
+          }
+          p{
+            @include text-paragraph(black, 16px);
+            margin: 0;
+          }
+        }
+        .img{
+          width: 30%;
+          height: 100%;
+          img{
+            object-fit: contain;
+            max-width: 50%;
+            height: auto;
+          }
+        }
+      }
+      .price, .cancel{
+        width: 33%;
+      }
+      .cancel{
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        min-height: 50%;
+        font-size: 20px;
+      }
+    }
+  }
+}
+

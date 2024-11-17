@@ -1,0 +1,424 @@
+@import "./variablesNMixin";
+
+// Defaults
+* ::before ::after {
+  box-sizing: border-box;
+    font-family: "Unna", serif;
+}
+
+body {
+  background-color: $bg-clr;
+  @include text-paragraph;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  @include flex(column, none, center);
+  margin: auto;
+  padding: auto;
+  height: auto;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.seperator {
+  border-left: 2px solid white;
+}
+
+.active{
+  color: $main-clr!important;
+}
+
+// Discount Banner
+#banner {
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+  background-color: $secondary-clr;
+  overflow: hidden;
+  @include flex;
+  position: relative;
+
+  h3 {
+    @include text-header(white, 20px);
+    margin: 0;
+    animation: scrollLeft 30s infinite linear;
+    position: absolute;
+    left: 100%;
+    min-width: 80%;
+    flex-shrink: 0;
+  }
+
+  // Banner text delay
+  .bannerTxt1 {
+    animation-delay: calc(30s / 5 * (8 - 1)* -1);
+  }
+
+  .bannerTxt2 {
+    animation-delay: calc(30s / 5 * (8 - 2)* -1);
+  }
+
+  .bannerTxt3 {
+    animation-delay: calc(30s / 5 * (8 - 3)* -1);
+  }
+
+  .bannerTxt4 {
+    animation-delay: calc(30s / 5 * (8 - 4)* -1);
+  }
+
+  .bannerTxt5 {
+    animation-delay: calc(30s / 5 * (8 - 5)* -1);
+  }
+}
+
+// Discount Banner Animation
+@keyframes scrollLeft {
+  to {
+    transform: translateX(-200%)
+  }
+}
+
+// NavBar
+nav {
+  @include flex(row, space-between);
+  height: 10vh;
+  padding: 0 20px;
+  background-color: $bg-secondary-clr;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.413), 0 15px 40px rgba(114, 119, 138, 0.476);
+
+
+
+  .openHamburger {
+    display: none;
+
+    button {
+      cursor: pointer;
+      border: none;
+      font-size: 40px;
+      background-color: rgba(255, 255, 255, 0);
+      color: black;
+      position: absolute;
+      right: 20px;
+      top: 55px;
+    }
+  }
+
+  .nav {
+    @include flex;
+  }
+
+  // Logo
+  .logo {
+    height: 8vh;
+    width: 15vw;
+    img {
+      height: 8vh;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  // Nav Links
+  ul {
+    @include flex (row, space-between);
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+
+    a {
+      padding: 30px;
+      text-align: center;
+
+      &:hover {
+        display: inline-block;
+        border-bottom: $highlight-clr 2px solid;
+        color: $highlight-clr;
+        font-size: 21px;
+        transform: translateY(-5px);
+      }
+    }
+  }
+
+  a {
+    @include text-paragraph(white, 20px);
+    text-decoration: none;
+    padding: 10px;
+    transition: all ease-out .2s;
+
+    &:hover {
+      color: $highlight-clr;
+      transition: all ease-in .2s;
+    }
+  }
+
+  i {
+    padding: 5px;
+    color: $main-clr;
+  }
+}
+
+// hamburger menu and blur
+.hidden {
+  display: none !important;
+}
+
+/* overlay */
+#overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.231);
+  backdrop-filter: blur(3px);
+  z-index: 3;
+}
+
+#hamburgerMenu {
+  height: 100vh;
+  width: 80%;
+  @include flex(column, space-evenly, end);
+  background-color: $third-clr;
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  top: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.413), 0 15px 40px rgba(114, 119, 138, 0.476);
+
+  .close {
+    height: 10%;
+
+    button {
+      cursor: pointer;
+      border: none;
+      font-size: 50px;
+      background-color: rgba(255, 255, 255, 0);
+      color: $text-paragraph-clr;
+    }
+  }
+
+  .hamburgerLinks {
+    width: 100%;
+    height: 80vh;
+    @include flex(column, center, start);
+
+    ul {
+      width: 100%;
+      height: 100%;
+      padding: 3px 0;
+      @include flex(column, start, center);
+
+      li {
+        @include flex(column);
+        height: 20%;
+        list-style: none;
+
+        a {
+          color: $text-paragraph-clr;
+          text-decoration: none;
+          border-bottom: $secondary-clr solid 3px;
+
+          i {
+            padding-right: 40px;
+            color: $main-clr;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+// Footer
+footer {
+  padding: 5vh 0 ;
+  height: auto;
+  width: 100vw;
+  background-color: $third-clr;
+  @include flex (row, space-around, none);
+  @include text-paragraph($main-clr);
+
+
+  .column {
+    padding-left: 2rem;
+    width: 25%;
+    @include flex (column, none, center);
+
+    h5 {
+      @include text-header($secondary-clr, 20px);
+      text-align: left;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        list-style: none;
+        padding: 10px;
+
+        a {
+          @include text-paragraph($main-clr, 14px);
+          padding: 0;
+          text-decoration: none;
+          text-align: center;
+
+
+          &:hover {
+            color: $highlight-light-clr;
+          }
+        }
+      }
+    }
+  }
+
+  // Website desc + socials
+  #info {
+    @include flex(column, none);
+    width: 50%;
+    p {
+      width: 70%;
+      font-size: 18px;
+    }
+
+    #mediaLinks {
+      width: 50%;
+    }
+
+    ul {
+      @include flex;
+      text-align: center;
+
+      i {
+        font-size: 20px;
+        color: $main-clr;
+        padding: 10px;
+
+        &:hover {
+          color: $highlight-clr;
+        }
+      }
+    }
+  }
+
+  #contact {
+    ul {
+      li {
+
+        h6 {
+          font-size: 18px;
+          font-weight: bolder;
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        h6,
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+
+// media queries
+// tablet
+@media (max-width: 768px) {
+
+  // banner
+  #banner {
+    h3 {
+      width: 200vw;
+    }
+  }
+
+  // footer
+  footer {
+    @include flex (column, center, center);
+    width: 100%;
+
+    aside {
+      @include flex(column, center, center)
+    }
+
+    .column {
+      width: 80%;
+      height: 50%;
+      padding: 0;
+
+      ul {
+        @include flex(column, start, start);
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+// phone
+@media (min-width: 320px) and (max-width: 768px) {
+
+  // banner
+  #banner {
+    h3 {
+      width: 300vw;
+    }
+  }
+
+  // nav
+  nav {
+    padding: 0 10px;
+
+    .logo {
+      img {
+        width: 130px;
+      }
+    }
+
+    .navLinks,
+    .navIcons {
+      display: none;
+    }
+  }
+
+  // hamburger menu
+  .openHamburger {
+    display: block !important;
+  }
+
+  // footer
+  footer {
+    #mediaLinks {
+      @include flex (row, none);
+    }
+
+    .column {
+      width: auto;
+      height: 50%;
+
+      h5 {
+        margin-bottom: 10px;
+      }
+
+      ul {
+        width: 80vw;
+      }
+    }
+  }
+}
