@@ -1,4 +1,4 @@
-const response = await fetch('/products.json');
+const response = await fetch('./products.json');
 const json = await response.json();
 console.log(json)
 
